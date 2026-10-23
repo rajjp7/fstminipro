@@ -1,0 +1,58 @@
+import { Category } from "@/types/product";
+
+export const CATEGORIES: Category[] = [
+  {
+    id: "cat-1",
+    name: "Audio & Acoustics",
+    slug: "audio",
+    description: "Immersive studio-grade headphones, earbuds, and wireless soundbars.",
+    imageUrl: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop",
+    itemCount: 4,
+    iconName: "Headphones",
+  },
+  {
+    id: "cat-2",
+    name: "Watches & Wearables",
+    slug: "watches",
+    description: "Sleek smartwatches, luxury chronographs, and biometric trackers.",
+    imageUrl: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop",
+    itemCount: 4,
+    iconName: "Watch",
+  },
+  {
+    id: "cat-3",
+    name: "Footwear & Sneakers",
+    slug: "footwear",
+    description: "Aerodynamic runners, artisan leather sneakers, and street icons.",
+    imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+    itemCount: 3,
+    iconName: "Footprints",
+  },
+  {
+    id: "cat-4",
+    name: "Desk & Tech Essentials",
+    slug: "tech-essentials",
+    description: "Precision mechanical keyboards, ergonomic gear, and smart hubs.",
+    imageUrl: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop",
+    itemCount: 4,
+    iconName: "Laptop",
+  },
+  {
+    id: "cat-5",
+    name: "Everyday Carry & Bags",
+    slug: "bags",
+    description: "Waterproof commuter backpacks, leather folios, and travel duffels.",
+    imageUrl: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
+    itemCount: 3,
+    iconName: "Briefcase",
+  },
+  {
+    id: "cat-6",
+    name: "Modern Apparel",
+    slug: "apparel",
+    description: "Technical weatherproof jackets, organic cotton tees, and loungewear.",
+    imageUrl: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
+    itemCount: 3,
+    iconName: "Shirt",
+  },
+];
